@@ -1,7 +1,6 @@
  UrunContext context = new UrunContext();
           
 
-
             var urn = context.urunler.ToList();
             foreach (var urunekle in urn)
             {
@@ -12,24 +11,12 @@
             Console.WriteLine("-----------------------------");
 
 
-
-
-
-
-
-           
-
             
             foreach (var urunekle in context.urunler)
             {
                 Console.WriteLine("ürün ıd:{0} ürün adı:{1} ürün fiyatı:{2} satışta mı :{3}", urunekle.Id, urunekle.Urunad, urunekle.Fiyat, urunekle.Satistami);
 
             }
-
-
-
-
-
 
 
             //-------------------------------------------------------------------ÜRÜN SİL ----------------------------------------------------------------------------------------------
@@ -55,8 +42,6 @@
 
 
 
-
-
             //-------------------------------------------------------------------ÜRÜN GÜNCELLEME----------------------------------------------------------------------------------------------
             //var urn = context.urunler.ToList();
             //foreach (var urunekle in urn)
@@ -70,8 +55,6 @@
 
             //var urnn = context.urunler.Find(1);
 
-
-
             //urnn.Fiyat += 50;
             //urnn.Urunad = "laptop";
             //Console.WriteLine("ürün ıd:{0} ürün adı:{1} Yeni ürün fiyatı:{2} satışta mı :{3}", urnn.Id, urnn.Urunad, urnn.Fiyat, urnn.Satistami);
@@ -82,10 +65,7 @@
             //urnn.Urunad = "tablet";
             //Console.WriteLine("ürün ıd:{0} ürün adı:{1} Yeni ürün fiyatı:{2} satışta mı :{3}", urnn.Id, urnn.Urunad, urnn.Fiyat, urnn.Satistami);
 
-
             //---------------------------------DEVAMI   
-
-
 
             //var urnn = context.urunler.ToList();
             //foreach (var item in urnn)
@@ -101,11 +81,7 @@
             //}
 
 
-
-
             //------------------------------------------------------------- ÜRÜN LİSTELEME----------------------------------------------------------------------------------------------------
-
-
 
 
             //var urun = context.urunler.ToList();
