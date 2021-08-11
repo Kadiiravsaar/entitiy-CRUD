@@ -1,0 +1,125 @@
+ UrunContext context = new UrunContext();
+          
+
+
+            var urn = context.urunler.ToList();
+            foreach (var urunekle in urn)
+            {
+                Console.WriteLine("ürün ıd:{0} ürün adı:{1} ürün fiyatı:{2} satışta mı :{3}", urunekle.Id, urunekle.Urunad, urunekle.Fiyat, urunekle.Satistami);
+
+            }
+
+            Console.WriteLine("-----------------------------");
+
+
+
+
+
+
+
+           
+
+            Console.WriteLine("-----------------------------");
+            foreach (var urunekle in context.urunler)
+            {
+                Console.WriteLine("ürün ıd:{0} ürün adı:{1} ürün fiyatı:{2} satışta mı :{3}", urunekle.Id, urunekle.Urunad, urunekle.Fiyat, urunekle.Satistami);
+
+            }
+
+
+
+
+
+
+
+            //-------------------------------------------------------------------ÜRÜN SİL ----------------------------------------------------------------------------------------------
+
+
+            //context.SaveChanges();
+            //Console.WriteLine("yeni kayıt");
+            //Console.ReadLine();
+
+
+            // var urunke = context.urunler.Find(2);
+
+            //if (urunke != null)
+            //{
+            //    context.urunler.Remove(urunke);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("ürün zaten yok");
+            //}
+            //context.SaveChanges();
+            //-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+            //-------------------------------------------------------------------ÜRÜN GÜNCELLEME----------------------------------------------------------------------------------------------
+            //var urn = context.urunler.ToList();
+            //foreach (var urunekle in urn)
+            //{
+            //    Console.WriteLine("ürün ıd:{0} ürün adı:{1} ürün fiyatı:{2} satışta mı :{3}", urunekle.Id, urunekle.Urunad, urunekle.Fiyat, urunekle.Satistami);
+
+            //}
+
+            //Console.WriteLine("-----------------------------");
+
+
+            //var urnn = context.urunler.Find(1);
+
+
+
+            //urnn.Fiyat += 50;
+            //urnn.Urunad = "laptop";
+            //Console.WriteLine("ürün ıd:{0} ürün adı:{1} Yeni ürün fiyatı:{2} satışta mı :{3}", urnn.Id, urnn.Urunad, urnn.Fiyat, urnn.Satistami);
+
+
+            //urnn = context.urunler.Find(5);
+            //urnn.Fiyat += 50;
+            //urnn.Urunad = "tablet";
+            //Console.WriteLine("ürün ıd:{0} ürün adı:{1} Yeni ürün fiyatı:{2} satışta mı :{3}", urnn.Id, urnn.Urunad, urnn.Fiyat, urnn.Satistami);
+
+
+            //---------------------------------DEVAMI   
+
+
+
+            //var urnn = context.urunler.ToList();
+            //foreach (var item in urnn)
+            //{
+            //    item.Satistami = false;
+
+            //}
+
+            //foreach (var urunekle in urn)
+            //{
+            //    Console.WriteLine("ürün ıd:{0} ürün adı:{1} ürün fiyatı:{2} satışta mı :{3}", urunekle.Id, urunekle.Urunad, urunekle.Fiyat, urunekle.Satistami);
+
+            //}
+
+
+
+
+            //------------------------------------------------------------- ÜRÜN LİSTELEME----------------------------------------------------------------------------------------------------
+
+
+
+
+            //var urun = context.urunler.ToList();
+            //var kategori = context.kategoriler.ToList();
+
+            //foreach (var kategoriekle in kategori)
+            //{
+            //    Console.WriteLine("kategori ıd:{0} kategori adı:{1}", kategoriekle.Id, kategoriekle.Kategoriadi);
+
+            //}
+            //Console.WriteLine("-----------------------------");
+
+            //foreach (var urunekle in urun)
+            //{
+            //    Console.WriteLine("ürün ıd:{0} ürün adı:{1} ürün fiyatı:{2} satışta mı :{3}",urunekle.Id,urunekle.Urunad,urunekle.Fiyat,urunekle.Satistami);
+
+            //}
