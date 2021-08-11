@@ -1,0 +1,2 @@
+# entitiy-CRUD
+işlemler
