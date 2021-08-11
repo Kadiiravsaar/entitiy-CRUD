@@ -19,7 +19,7 @@
 
            
 
-            Console.WriteLine("-----------------------------");
+            
             foreach (var urunekle in context.urunler)
             {
                 Console.WriteLine("ürün ıd:{0} ürün adı:{1} ürün fiyatı:{2} satışta mı :{3}", urunekle.Id, urunekle.Urunad, urunekle.Fiyat, urunekle.Satistami);
